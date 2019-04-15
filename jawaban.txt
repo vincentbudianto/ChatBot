@@ -1,0 +1,7 @@
+Halo
+Selamat pagi, ada yang bisa saya bantu?
+Selamat siang, ada yang bisa saya bantu?
+Selamat malam, ada yang bisa saya bantu?
+Baik, ada yang bisa saya bantu?
+Perkenalkan aku bot yang dibentuk oleh tukang PHP
+Strategi Algoritma adalah mata kuliah wajib pada Teknik Informatika Institut Teknologi Bandung
