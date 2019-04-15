@@ -1,3 +1,8 @@
+def file():
+	f = open("pertanyaan.txt", "r")
+	if f.mode == "r":
+		contents = f.read()
+		return contents
 
 def Boyer_Moore (T,P) :
 
@@ -7,6 +12,7 @@ def Boyer_Moore (T,P) :
 	n = len(T)
 	i = m-1
 	j = m-1
+	id = 0
 	
 	while (i <= n-1 and not match) :
 		if (T[i].lower() == P[j].lower()):
@@ -17,30 +23,31 @@ def Boyer_Moore (T,P) :
 				j = j-1
 		else :
 			k = 0
-			while (T[i].lower() != P[j].lower() and k < m) :
+			while (T[i].lower() != P[j].lower() and k < m):
 				k = k+1
 				j = j-1
 			
 			i = i+k
 			j = m-1
-	
-		
-	return match
-			 
 
-#------------
-#---Test----
-#------------
+	if (match):
+		return i
+	else:
+		return -1
 
-print("Masukkan Text: ")
-T = str(input())
-print("Masukkan Pattern: ")
-P = str(input())
+if __name__ == "__main__":
+	T = file()
+	print("Masukkan Pattern: ")
+	P = str(input())
 
-match = Boyer_Moore(T,P)
+	id = Boyer_Moore(T,P)
 
-if (match):
-	print("------>>Ketemu!!")
-else:
-	print("Kaga ketemu!!")
+	if (id != -1):
+		idx = 0
+		for i in range(id):
+			if (T[i] == '\n'):
+				idx = idx+1
 
+		print(idx)
+	else:
+		print(id)
