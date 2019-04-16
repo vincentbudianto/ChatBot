@@ -2,27 +2,17 @@ from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFacto
 import re
 
 def regex(T, P):
-'''	factory = StopWordRemoverFactory()
-	stopword = factory.create_stop_word_remover()
-	cleanT = stopword.remove(T)
-	cleanT = stopword.replace('?', '')'''
 	stext = T.split()
 	lengthP = len(P)
 	lengthT = len(stext)
 	found = False
 	i = 0
 	
+	rtext = ''
 	while ((i < lengthP) and not(found)):
-		rtext = ''
+		print(rtext)
 		j = 0
 		valid = True
-
-		'''for j in range(lengthT):
-			rtext += stext[j]
-			
-			if (j != (len(stext) - 1)):
-				rtext += ' '
-		print(rtext)'''
 
 		while ((j < lengthT) and (valid)):
 			rtext += stext[j]
