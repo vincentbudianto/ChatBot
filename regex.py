@@ -1,39 +1,48 @@
+from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 import re
 
-text = input('Masukan input: ')
-print(text)
+def regex(T, P):
+'''	factory = StopWordRemoverFactory()
+	stopword = factory.create_stop_word_remover()
+	cleanT = stopword.remove(T)
+	cleanT = stopword.replace('?', '')'''
+	stext = T.split()
+	lengthP = len(P)
+	lengthT = len(stext)
+	found = False
+	i = 0
+	
+	while ((i < lengthP) and not(found)):
+		rtext = ''
+		j = 0
+		valid = True
 
-stext = text.split()
-length = len(stext)
-print(stext)
+		'''for j in range(lengthT):
+			rtext += stext[j]
+			
+			if (j != (len(stext) - 1)):
+				rtext += ' '
+		print(rtext)'''
 
-rtext = ''
-'''for i in range(length):
-	rtext += stext[i]
+		while ((j < lengthT) and (valid)):
+			rtext += stext[j]
+			
+			if (j != (len(stext) - 1)):
+				rtext += ' '
+			
+			x = re.search(rtext, P)
+			
+			if (x == None):
+				valid = False
+			
+			j += 1
+		
+		if (j == lengthT):
+			found = True
+			
+		i += 1
 	
-	if (i != (len(stext) - 1)):
-		rtext += ' '
-print(rtext)'''
-
-st = 'siapa saya?'
-
-i = 0
-valid = True
-while ((i < length) and (valid)):
-	rtext += stext[i]
-	
-	if (i != (len(stext) - 1)):
-		rtext += ' '
-	
-	print(rtext)
-	
-	x = re.search(rtext, st)
-	
-	if (x == None):
-		valid = False
-		print('string not found')
-	
-	i += 1
-
-if (valid):
-	print('string found\n' + rtext)
+	if (found):
+		return i
+	else:
+		return -1
