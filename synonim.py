@@ -7,7 +7,7 @@ def load(filename):
 
     return data
 
-mydict = load('dict.json')
+mydict = load('dictionary.json')
 
 def getSinonim(word):
     global mydict
