@@ -13,7 +13,7 @@ def computeFail(P):
 	j = 0
 	
 	while (i < length):
-		if (P[j] == P[i]):
+		if (P[j].lower() == P[i].lower()):
 			fail[i] = j + 1
 			i += 1
 			j += 1
@@ -33,7 +33,7 @@ def KMP(T, P):
 	j = 0
 	
 	while (i < lengthT):
-		if (P[j] == T[i]):
+		if (P[j].lower() == T[i].lower()):
 			if (j == (lengthP - 1)):
 				return i - lengthP + 1
 			
