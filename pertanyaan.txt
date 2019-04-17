@@ -25,3 +25,12 @@ Tahun berapa Indonesia merdeka
 Berapa tahun Indonesia dijajah Jepang
 Dimana Soekarno memproklamasikan kemerdekaan Indonesia
 Dimana kantin terdekat Labtek 5
+Apa Python
+Kapan Python muncul
+Siapa menciptakan Python
+Adakah tutorial Python
+Mengapa disebut Python
+Berapa banyak pengguna Python
+Apakah Python bagus untuk pemula
+Siapa pengembang Python
+Apa itu Python Software Foundation
