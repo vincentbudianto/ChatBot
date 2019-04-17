@@ -10,59 +10,66 @@ def readFile(str):
 		return contents
 
 if __name__ == "__main__":
-    T = readFile("pertanyaan.txt")
-    print("Masukkan Pattern: ")
-    P = str(input())
+	T = readFile("pertanyaan.txt")
+	Z1 = T.split('\n')
+	Z2 = []
+	Z3 = []
+	
+	for i in range(len(Z1)):
+		Z2.append(Z1[i].split('. '))
 
-    factory = StopWordRemoverFactory()
-    stopword = factory.create_stop_word_remover()
-    stop = stopword.remove(P)
-    stop = stop.replace('?','')
+	for j in range(len(Z2)):
+		Z3.append(Z2[j][1].split('? '))
+	
+	Q = ''
+	
+	for k in range(len(Z3)):
+		Q += Z3[k][0]
+		
+		if (k != len(Z3)):
+			Q += '\n'
+	
+	print("Masukkan Pattern: ")
+	P = str(input())
 
-    print("Pilih Metode Pencarian")
-    print("1. Boyer Moore")
-    print("2. KMP")
-    print("3. Regex")
-    pil = int(input())
+	factory = StopWordRemoverFactory()
+	stopword = factory.create_stop_word_remover()
+	stop = stopword.remove(P)
+	stop = stop.replace('?','')
+	pil = 0
+	
+	while (pil != 4):
+		print("Pilih Metode Pencarian")
+		print("1. Boyer Moore")
+		print("2. KMP")
+		print("3. Regex")
+		pil = int(input())
 
-    if (pil == 1):
-        id = Boyer_Moore(T,stop)
-    elif (pil == 2):
-        id = KMP(T,stop)
-    elif (pil == 3):
-        id = regex(T,stop)
+		if (pil == 1):
+			id = Boyer_Moore(Q, stop)
+		elif (pil == 2):
+			id = KMP(Q, stop)
+		elif (pil == 3):
+			id = regex(Q, stop)
+			
+		print(id)
 
-    idx = 0
-    if (id != -1):
-        for i in range(id):
-            if (T[i] == '\n'):
-                idx = idx+1
+		idx = 0
+		if (id != -1) and ((pil == 1) or (pil == 2)):
+			for i in range(id):
+				if (Q[i] == '\n'):
+					idx = idx+1
 
-        str = ''
-        while (T[id] != '\n'):
-            id = id-1
-        
-        while (T[id+1] != '\n'):
-            str += T[id+1]
-            id = id+1
+			str = ''
+			while (Q[id] != '\n'):
+				id = id-1
+			
+			while (Q[id+1] != '\n'):
+				str += Q[id+1]
+				id = id+1
+		else:
+			idx = -1
+		
+		print(idx)
 
-        if (str.lower() != stop.lower()):
-            idx = -1
-    else:
-        idx = -1
-
-    if (idx != -1):
-        J = readFile("jawaban.txt")
-        n = 0
-        ans = ''
-        i = 0
-        while (n != idx):
-            if (J[i] == '\n'):
-                n = n+1
-            i = i+1
-
-        while (J[i] != '\n'):
-            ans += J[i]
-            i = i+1
-
-        print(ans)
+		print(Z3[idx][1])

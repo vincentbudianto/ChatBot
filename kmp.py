@@ -1,11 +1,3 @@
-from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
-
-def readFile(str):
-	f = open(str, "r")
-	if f.mode == "r":
-		contents = f.read()
-		return contents
-
 def computeFail(P):
 	length = len(P)
 	fail = [0 for i in range(length)]
