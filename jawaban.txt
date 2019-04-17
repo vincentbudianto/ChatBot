@@ -25,3 +25,12 @@ Tujuh orang
 3 setengah tahun
 Jl. Pegangsaan Timur No.56
 Kantin Borju
+Python adalah bahasa pemrograman interpretatif multiguna. Tidak seperti bahasa lain yang susah untuk dibaca dan dipahami, python lebih menekankan pada keterbacaan kode agar lebih mudah untuk memahami sintaks. Hal ini membuat Python sangat mudah dipelajari baik untuk pemula maupun untuk yang sudah menguasai bahasa pemrograman lain
+Python muncul pertama kali pada tahun 1991
+Python diciptakan dan dirancang oleh seseorang bernama Guido van Rossum
+Ada banyak forum, tutorial, dan buku yang tersedia di internet
+Ketika Guido van Rossum memulai merancang Python, dia juga membaca sebuah buku komedi BBC yang berjudul "Monty Python's Flying Circus", pada tahun 1970an. Beliau terinspirasi dari buku tersebut, sebab menurutnya, Python itu unik, pendek, dan misterius
+Sekitar sepuluh ribu pengguna (tidak dapat dipastikan dengan teliti)
+Ya. Python sangat cocok untuk pemula, sebab Python menyediakan sintaks yang simpel dan konsisten, dan memiliki fungsi yang banyak sehingga memudahkan para pemula untuk belajar
+Python dikembangkan oleh Python Software Foundation
+Python Software Foundation adalah organisasi non-profit independen yang bertugas untuk memegang kepemilikan Python dan mengembangkan Python menjadi lebih maju dan fungsional
