@@ -60,18 +60,19 @@ if __name__ == "__main__":
         word = stopword.remove(word)
 
     pil = int(sys.argv[2])
+    # print(word)
     if (pil == 1):
         id = Boyer_Moore(Q,word)
     elif (pil == 2):
         id = KMP(Q,word)
 
-    idx = 0
+    # print(Q)
     if (id != -1):
         getanswer(id)
     else:
-        id = regex(Z3, word)[0]
-        percent = regex(Z3, word)[1]
-        print(percent)
+        id = regex(Q, word)[0]
+        percent = regex(Q, word)[1]
+        # print(percent)
         if (id != -1):
             getanswer(id)
         else:
@@ -82,10 +83,10 @@ if __name__ == "__main__":
                 if (percent[idr[m]] != 0):
                     ids.insert(0, idr[m])
             
-            print(ids)
+            # print(ids)
             if (len(ids) >= 1):
                 if (percent[ids[0]] >= 0.9):
-                    print(ids[0])
+                    # print(ids[0])
                     print(Z3[ids[0]][1])
                 else:
                     if (len(ids) == 1):
