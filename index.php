@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="style.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
         <link href="animation.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
         <title>Simple Chat Bot</title>
@@ -30,7 +30,6 @@
             </div>
         </div>
         <div id="konten" hidden>
-            <!-- <h1>Tukang PHP Simple Chat Bot</h1> -->
             <div class="container">
                 <div class="avatar animated fadeIn">
                     <img src="avatar-1.png" alt="">

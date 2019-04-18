@@ -93,7 +93,7 @@ input#two:checked ~ .check { transform: translate(-50px, -25px); }
     margin: auto;
     border: transparent;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 700;
 }
 
@@ -108,17 +108,18 @@ h1{
     margin-top: -20px;
 }
 
-.container{
-    padding: 0 30px;
+#konten .container{
+    margin: auto;
 }
 
 .avatar img{
-    height: 500px;
-    width: 500px;
     margin-bottom: -70px;
+    margin-left: -25%;
 }
 
 .avatar{
+    height: 25%;
+    width: 25%;
     display: inline-block;
 }
 
@@ -129,6 +130,21 @@ h1{
     box-shadow: 0 19px 38px rgba(0, 0, 0, 0.13);
 }
 
+#chat::-webkit-scrollbar-track {
+    border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#chat::-webkit-scrollbar {
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#chat::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+	background-color: crimson;
+}
+
 .chat{
     border: 1px solid black;
     height: 450px;
@@ -136,7 +152,7 @@ h1{
     margin-bottom: 10px;
     background-image: url(background.jpg);
     padding-bottom: 25px;
-    border-radius: 5px;
+    border-radius: 0 0 5px 5px;
 }
 
 .input{
@@ -154,7 +170,7 @@ h1{
 }
 
 #message{
-    height: 35px;
+    height: 25px;
     width: 590px;
     margin-left: 5px;
     border-radius: 10px;
@@ -166,7 +182,7 @@ h1{
     border: transparent;
     border-radius: 10px;
     width: 75px;
-    height: 40px;
+    height: 25px;
     background-color: crimson;
     color: white;
     margin-left: 10px;
@@ -237,5 +253,33 @@ h1{
 #header p{
     padding: 0;
     margin: 0;
-    font-size: 14px;
+    font-size: 12px;
+}
+
+@media (max-width:768px){
+    #konten{
+        width: 100%;
+    }
+
+    #konten .container{
+        width: 90%;
+    }
+
+    .roomchat{
+        width: 100%;
+    }
+    
+    #message{
+        width: calc(100% - 120px);
+    }
+}
+
+@media (max-width:992px){
+    .avatar img{
+        display:none;
+    }
+
+    .roomchat{
+        width: 100%;
+    }
 }

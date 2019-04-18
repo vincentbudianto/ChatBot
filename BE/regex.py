@@ -1,38 +1,42 @@
-from Sastrawi.StopWordRemover.StopWordRemoverFactory import StopWordRemoverFactory
 import re
 
 def regex(T, P):
-	stext = T.split()
-	lengthP = len(P)
-	lengthT = len(stext)
+	text = P.split()
+	lengthP = len(text)
+	lengthT = len(T)
+	percent = [0 for i in range(lengthT)]
 	found = False
 	i = 0
-	
-	rtext = ''
-	while ((i < lengthP) and not(found)):
-		print(rtext)
-		j = 0
-		valid = True
 
-		while ((j < lengthT) and (valid)):
-			rtext += stext[j]
-			
-			if (j != (len(stext) - 1)):
-				rtext += ' '
-			
-			x = re.search(rtext, P)
+	while ((i < lengthT) and not(found)):
+		j = 0
+		length = 0
+		valid = True
+		
+		while ((j < lengthP) and (valid)):
+			x = re.search(text[j], T[i][0])
 			
 			if (x == None):
 				valid = False
-			
-			j += 1
+			else:
+				length += len(text[j])
+				
+				if (j != (lengthP - 1)):
+					length += 1
+				
+				j += 1
+
+		if ((len(P) > len(T[i][0])) and (length != 0)):
+			percent[i] = float(len(T[i][0])/len(P))
+		else:
+			percent[i] = float(length/len(T[i][0]))
 		
-		if (j == lengthT):
+		if (j == lengthP):
 			found = True
-			
-		i += 1
+		else:
+			i += 1
 	
 	if (found):
-		return i
+		return [i, percent]
 	else:
-		return -1
+		return [-1, percent]
