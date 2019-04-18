@@ -12,8 +12,8 @@
 12. Tanggal berapa diadakan pemilu tahun ini? 17 April 2019
 13. Sudah berapa kali diadakan pemilu presiden? 4 Kali
 14. Pemilu diadakan berapa kali setahun? 5 tahun sekali
-15. Siapa saja pembuat anda? Arnold Sianturi, Juniardi Akbar, Vincent Budianto
-16. Apa saja stack yang dipakai untuk membuat anda? Tidak tahu :)
+15. Siapa saja pembuat kamu? Arnold Sianturi, Juniardi Akbar, Vincent Budianto
+16. Apa saja stack yang dipakai untuk membuat kamu? Tidak tahu :)
 17. Apa nama ibukota Indonesia? DKI Jakarta
 18. Nama ibukota Indonesia sebelum disebut Jakarta adalah? Jayakarta
 19. Siapa pembuat algoritma KMP? Knuth-Morris-Prat
@@ -97,4 +97,4 @@
 97. Mengapa Python menggunakan indentasi dalam mengelompokkan pernyataan? Sebab, menurut Guido van Rossun, indentasi membuat pemrograman Python tampak elegan dan memberikan kejelasan yang lebih baik pada urutan pemrograman
 98. Apa salam ganesha? Salam Ganesha adalah salam khas mahasiswa ITB untuk menyerukan semangat dan identitas. Isinya adalah “Salam Ganesha. Bakti kami, untukMu, Tuhan, Bangsa, dan Almamater”
 99. Sebutkan universitas terbaik Indonesia? Menurut Emerging Economies 2019 5 universitas terbaik di Indonesia adalah UI, ITB, IPB, UGM, dan ITS. Namun ITB tetap yang terbaik
-100. Siapa nama anda? Nama saya adalah Rinaldi
+100. Siapa nama kamu? Nama saya adalah Rinaldi
