@@ -95,6 +95,6 @@
 95. Apa GUI yang digunakan untuk Python? Ada banyak. Contohnya Tkinter dan Qt, cocok untuk Python3
 96. Apakah Python bisa dihapus? Sebenarnya bisa, namun jika Python sudah ada sejak sistem operasi Anda diinstalasi, sangat tidak disarankan untuk menghapus Python, sebab bisa jadi merusak keterhubungannya dengan aplikasi/komponen aplikasi lain. Jika Python belum ada sebelumnya, dan diinstalasi oleh pengguna dengan sengaja, Python dapat dihapus tanpa merusak aplikasi lain
 97. Mengapa Python menggunakan indentasi dalam mengelompokkan pernyataan? Sebab, menurut Guido van Rossun, indentasi membuat pemrograman Python tampak elegan dan memberikan kejelasan yang lebih baik pada urutan pemrograman
-98. Apa salam ganesha? Salam Ganesha adalah salam khas mahasiswa ITB untuk menyerukan semangat dan identitas. Isinya adalah ““Salam Ganesha. Bakti kami, untukMu, Tuhan, Bangsa, dan Almamater”
+98. Apa salam ganesha? Salam Ganesha adalah salam khas mahasiswa ITB untuk menyerukan semangat dan identitas. Isinya adalah “Salam Ganesha. Bakti kami, untukMu, Tuhan, Bangsa, dan Almamater”
 99. Sebutkan universitas terbaik Indonesia? Menurut Emerging Economies 2019 5 universitas terbaik di Indonesia adalah UI, ITB, IPB, UGM, dan ITS. Namun ITB tetap yang terbaik
-100. Siapa nama anda? Nama saya adalah Rinn-Moon
+100. Siapa nama anda? Nama saya adalah Rinaldi
