@@ -24,11 +24,6 @@
             "pemilihan umum"
         ]
     },
-    "pembuat": { 
-        "sinonim": [
-            "menciptakan", "membuat", "merancang", "pencipta", "perancang"
-        ]
-    },
     "di mana": { 
         "sinonim": [
             "dimana"
@@ -119,9 +114,9 @@
             "istilah", "kata lain"
         ]
     },
-    "penemu": { 
+    "yang menemukan": { 
         "sinonim": [
-            "yang menemukan", "pencipta"
+            "penemu"
         ]
     },
     "bagian-bagian": { 
@@ -176,7 +171,7 @@
     },
     "pencipta": { 
         "sinonim": [
-            "kreator", "pembuat", "pengarang"
+            "kreator", "pembuat", "pengarang", "menciptakan", "membuat", "merancang", "perancang"
         ]
     },
     "tenggelam": { 
