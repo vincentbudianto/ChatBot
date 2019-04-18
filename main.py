@@ -57,7 +57,12 @@ if __name__ == '__main__':
 	elif (pil == 3):
 		id, percent = regex(Z3, word)
 	
-	ids = sorted(range(len(percent)), key=lambda i: percent[i])[-3:]
+	idr = sorted(range(len(percent)), key=lambda i: percent[i])[-3:]
+	ids = []
+	
+	for m in range(3):
+		if (percent[idr[m]] != 0):
+			ids.insert(0, idr[m])
 	
 	idx = 0
 
@@ -79,24 +84,43 @@ if __name__ == '__main__':
 			idx = id
 		else:
 			ok = False
-			print('Mungkin maksud anda adalah:')
-			print('1. ' + Z3[ids[2]][0])
-			print('2. ' + Z3[ids[1]][0])
-			print('3. ' + Z3[ids[0]][0])
-			c = int(input('Pertanyaan ke-'))
 			
-			while (not(ok)):
-				if (c == 1):
-					idx = ids[2]
-					ok = True
-				elif (c == 2):
-					idx = ids[1]
-					ok = True
-				elif (c == 3):
-					idx = ids[0]
-					ok = True
-				else:
-					c = int(input('Pertanyaan ke-'))
+			if (len(ids) == 1):
+				idx = id
+			elif (len(ids) == 2):
+				print('Mungkin maksud anda adalah:')
+				print('1. ' + Z3[ids[0]][0])
+				print('2. ' + Z3[ids[1]][0])
+				c = int(input('Pertanyaan ke-'))
+				
+				while (not(ok)):
+					if (c == 1):
+						idx = ids[0]
+						ok = True
+					elif (c == 2):
+						idx = ids[1]
+						ok = True
+					else:
+						c = int(input('Pertanyaan ke-'))
+			elif (len(ids) == 3):
+				print('Mungkin maksud anda adalah:')
+				print('1. ' + Z3[ids[0]][0])
+				print('2. ' + Z3[ids[1]][0])
+				print('3. ' + Z3[ids[2]][0])
+				c = int(input('Pertanyaan ke-'))
+				
+				while (not(ok)):
+					if (c == 1):
+						idx = ids[0]
+						ok = True
+					elif (c == 2):
+						idx = ids[1]
+						ok = True
+					elif (c == 3):
+						idx = ids[2]
+						ok = True
+					else:
+						c = int(input('Pertanyaan ke-'))
 	else:
 		idx = -1
 
