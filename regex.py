@@ -37,6 +37,6 @@ def regex(T, P):
 			i += 1
 	
 	if (found):
-		return i, percent
+		return [i, percent]
 	else:
-		return -1
+		return [-1, percent]
