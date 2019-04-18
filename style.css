@@ -1,0 +1,241 @@
+:root {
+	--primary-c: #2196F3;
+	--secondary-c: #B2D7F5;
+	
+	--white: #FDFBFB;
+	
+	--text: #082943;	
+	--bg: var(--primary-c);
+}
+
+html, body {
+    height: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    overflow: hidden;
+    background-color: var(--bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	font-family: 'Raleway', sans-serif;
+	color: var(--text);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 50px;
+	margin: 0;
+}
+
+li {
+	display: block;
+	position: relative;
+	padding: 20px 0px;
+}
+
+h2 {
+	margin: 10px 0;
+    font-weight: 900;
+    text-align: center;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;	
+	background: var(--white);
+	width: 300px;
+	padding: 20px 25px;
+	border-radius: 20px;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.13);
+}
+
+
+input[type=radio] {
+	position: absolute;
+	visibility: hidden;
+}
+
+label { 
+	cursor: pointer; 
+	font-weight: 400;
+}
+
+.check {
+	width: 30px; height: 30px;
+	position: absolute;
+	border-radius: 50%;
+	transition: transform .6s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+input#one ~ .check { 
+	transform: translate(-50px, -25px); 
+	background: var(--secondary-c); 
+}
+input#two ~ .check { 
+	transform: translate(-50px, -83px); 
+	background: var(--primary-c);
+	box-shadow: 0 6px 12px rgba(33, 150, 243, 0.35);
+}
+
+input#one:checked ~ .check { transform: translate(-50px, 33px); }
+
+input#two:checked ~ .check { transform: translate(-50px, -25px); }
+
+.card #next{
+    background-color: khaki;
+    height: 30px;
+    width: 80px;
+    margin: auto;
+    border: transparent;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.card #next:hover{
+    cursor: pointer;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-weight: 750;
+    margin-top: -20px;
+}
+
+.container{
+    padding: 0 30px;
+}
+
+.avatar img{
+    height: 500px;
+    width: 500px;
+    margin-bottom: -70px;
+}
+
+.avatar{
+    display: inline-block;
+}
+
+.roomchat{
+    display: inline-block;
+    height: 500px;
+    width : 700px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.13);
+}
+
+.chat{
+    border: 1px solid black;
+    height: 450px;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    background-image: url(background.jpg);
+    padding-bottom: 25px;
+    border-radius: 5px;
+}
+
+.input{
+    height: 50px;
+}
+
+.player{
+    padding: 0 10px;
+    margin: 10px 0;
+}
+
+.bot{
+    padding: 0 10px 10px 10px;
+    margin: 10px 0;
+}
+
+#message{
+    height: 35px;
+    width: 590px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: transparent;
+    padding-left: 10px;
+}
+
+#kirim{
+    border: transparent;
+    border-radius: 10px;
+    width: 75px;
+    height: 40px;
+    background-color: crimson;
+    color: white;
+    margin-left: 10px;
+}
+
+.bot img{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.bot p{
+    display: block;
+    background-color: khaki;
+    border: 8px solid transparent;
+    border-radius: 30px 30px 30px 0px;
+    padding: 0 10px;
+    float: left;
+    margin-bottom: -5px;
+    margin-right: 30%;
+}
+
+.player p{
+    display: block;
+    background-color: cornflowerblue;
+    border: 8px solid transparent;
+    border-radius: 30px 30px 0px 30px;
+    padding: 0 10px;
+    text-align: right;
+    float: right;
+    margin-bottom: -5px;
+    margin-left: 30%;
+}
+
+#header{
+    /* position: absolute; */
+    height: 60px;
+    width: 100%;
+    background-color: #082943;
+}
+
+#header img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #FDFBFB;
+    border-radius: 50%;
+    border: 3px solid khaki;
+    margin-left: 20px;
+    margin-top: 3px;
+}
+
+#header .status{
+    display: inline-block;
+    color: #FDFBFB;
+    position: absolute;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+
+#header h4{
+    font-weight: 300;
+    padding: 0;
+    margin: 0;
+}
+
+#header p{
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+}

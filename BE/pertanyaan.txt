@@ -1,0 +1,27 @@
+1. Halo? Halo, ada yang bisa saya bantu?
+2. Selamat pagi? Selamat pagi, ada yang bisa saya bantu?
+3. Selamat siang? Selamat siang, ada yang bisa saya bantu?
+4. Selamat malam? Selamat malam, ada yang bisa saya bantu?
+5. Apa kabar? Baik, ada yang bisa saya bantu?
+6. Siapa kamu? Perkenalkan aku bot yang dibentuk oleh tukang PHP
+7. Apa itu Strategi Algoritma? Strategi Algoritma adalah mata kuliah wajib pada Teknik Informatika Institut Teknologi Bandung
+8. Siapa nama koordinator dosen mata kuliah strategi algoritma 2018/2019? Rinaldi Munir
+9. Siapa nama koordas strategi algoritma? Kevin Andrian Liwinata
+10. Berapa jumlah SKS minimal untuk lulus S1 di ITB? 144 SKS
+11. Apa kepanjangan SKSD? Sistem Komunikasi Satelit Domestik
+12. Tanggal berapa diadakan pemilu tahun ini? 17 April 2019
+13. Sudah berapa kali diadakan pemilu presiden? 4 Kali
+14. Pemilu diadakan berapa kali setahun? 5 tahun sekali
+15. Siapa saja pembuat anda? Arnold Sianturi, Juniardi Akbar, Vincent Budianto
+16. Apa saja stack yang dipakai untuk membuat anda? Tidak tahu
+17. Apa nama ibukota Indonesia? DKI Jakarta
+18. Nama ibukota Indonesia sebelum disebut Jakarta adalah? Jayakarta
+19. Siapa pembuat algoritma KMP? Knuth-Morris-Prat
+20. Siapa pemain catur nomor satu dunia sekarang? Magnus Carlsen
+21. Apa nama blackhole yang berada di tengah galaksi bimasakti? Blackhole M87
+22. Siapa nama pemain karakter wanita yang direbutkan oleh kedua pria dalam lagu "adu rayu"? velove vexia
+23. Berapa jumlah presiden Indonesia? Tujuh orang
+24. Tahun berapa Indonesia merdeka? 1945
+25. Berapa tahun Indonesia dijajah Jepang? 3 setengah tahun
+26. Dimana Soekarno memproklamasikan kemerdekaan Indonesia? Jl. Pegangsaan Timur No.56
+27. Dimana kantin terdekat Labtek 5? Kantin Borju
