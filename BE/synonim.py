@@ -25,10 +25,3 @@ def changeSinonim(word):
         str[i] = getSinonim(str[i])
     word = ' '.join(str)
     return word
-
-
-# lis = getSinonim('kamu')
-# if (lis != 0):
-#     print(lis)
-# else:
-#     print("tidak ada")

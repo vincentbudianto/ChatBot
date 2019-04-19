@@ -114,11 +114,6 @@
             "istilah", "kata lain"
         ]
     },
-    "yang menemukan": { 
-        "sinonim": [
-            "penemu"
-        ]
-    },
     "bagian-bagian": { 
         "sinonim": [
             "bagian", "keluar"
@@ -129,9 +124,9 @@
             "mula-mula"
         ]
     },
-    "sebutan": { 
+    "nama": { 
         "sinonim": [
-            "identitas", "julukan", "panggilan", "istilah", "nama"
+            "identitas", "julukan", "panggilan", "istilah", "sebutan"
         ]
     },
     "terpanjang": { 
@@ -171,7 +166,7 @@
     },
     "pencipta": { 
         "sinonim": [
-            "kreator", "pembuat", "pengarang", "menciptakan", "membuat", "merancang", "perancang"
+            "kreator", "pembuat", "pengarang", "menciptakan", "membuat", "merancang", "perancang", "menemukan"
         ]
     },
     "tenggelam": { 
@@ -227,16 +222,6 @@
     "terbaik": { 
         "sinonim": [
             "paling baik"
-        ]
-    },
-    "nama": { 
-        "sinonim": [
-            "panggilan"
-        ]
-    }, 
-    "lama": { 
-        "sinonim": [
-            "tahun"
         ]
     }
 }
