@@ -2,22 +2,25 @@ var chat = document.getElementById("chat");
 var kirim = document.getElementById("kirim");
 var message = document.getElementById("message");
 var form = document.getElementById("formchat");
-var next = document.getElementById("next");
+var next1 = document.getElementById("next1");
+var next2 = document.getElementById("next2");
 var awal = document.getElementById("awal");
 var konten = document.getElementById("konten");
+var persentase = document.getElementById("persentase");
+var range = document.getElementById("input")
 
-function sleep(milliseconds) {
-    var start = new Date().getTime();
-    for (var i = 0; i < 1e7; i++) {
-      if ((new Date().getTime() - start) > milliseconds){
-        break;
-      }
-    }
-  }
-
-next.addEventListener("click", function(){
-    konten.removeAttribute("hidden");
+next1.addEventListener("click", function(){
+    persentase.removeAttribute("hidden");
     awal.setAttribute("hidden", "true");
+})
+
+next2.addEventListener("click", function(){
+  konten.removeAttribute("hidden");
+  persentase.setAttribute("hidden", "true");
+})
+
+range.addEventListener("change", function(){
+  nilai.innerHTML = '<p>Persentase Kemiripan : <span style="font-weight: bold">'+ range.value +'%</span></p>';
 })
 
 function getanswer(mes){
@@ -42,12 +45,17 @@ function getanswer(mes){
             chat.scrollTop = chat.scrollHeight+1200;
 		}
     }
-    xhr.open('GET', 'BE/answer.php?message=' + mes + '&pil=' + pil);
+    xhr.open('GET', 'BE/answer.php?message=' + mes + '&pil=' + pil + '&range=' + range.value);
     xhr.send();
+}
+
+function animate(){
+    document.getElementById("avatar").innerHTML = '<img src="avatar-2.png" alt="">'
 }
 
 kirim.addEventListener("click", function(e){
     e.preventDefault();
+    document.getElementById("avatar").innerHTML = '<img src="avatar-1.png" alt="">'
     var node = document.createElement("div");
     node.classList.add("player");
     node.classList.add("animated");
@@ -60,5 +68,6 @@ kirim.addEventListener("click", function(e){
     chat.appendChild(node);
     getanswer(pesan);
     form.reset();
+    setTimeout(animate, 2000)
 })
 

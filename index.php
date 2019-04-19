@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link href="styles.css" rel="stylesheet">
+        <link href="main.css" rel="stylesheet">
         <link href="animation.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
         <title>Simple Chat Bot</title>
@@ -26,19 +26,29 @@
                         <div class="check"></div>
                     </li>
                 </ul>
-                <button type="button" id="next">NEXT</button>
+                <button type="button" class=next id="next1">NEXT</button>
+            </div>
+        </div>
+        <div class="container" id="persentase" hidden>
+            <div class="card animated fadeIn delay-1s">
+                <h2>Pilih Persentase Kemiripan</h2>
+                <input id="input" type="range" name="points" min="0" max="90">
+                <div id="nilai">
+                    <p>Persentase Kemiripan : <span style="font-weight: bold">45%</span></p>
+                </div>
+                <button type="button" class=next id="next2">NEXT</button>
             </div>
         </div>
         <div id="konten" hidden>
             <div class="container">
-                <div class="avatar animated fadeIn">
-                    <img src="avatar-1.png" alt="">
+                <div class="avatar animated fadeIn" id="avatar">
+                    <img src="avatar-2.png" alt="">
                 </div>
                 <div class="roomchat animated fadeIn">
                     <div id="header">
                         <img src="avatar-1.png">
                         <div class="status">
-                            <h4>Bot Name</h4>
+                            <h4>Rinaldi</h4>
                             <p>online</p>
                         </div>
                     </div>
@@ -56,6 +66,6 @@
                 </div>
             </div>
         </div>
-        <script src="script.js"></script>
+        <script src="scripts.js"></script>
     </body>
 </html>

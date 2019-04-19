@@ -60,6 +60,7 @@ if __name__ == "__main__":
         word = stopword.remove(word).lower()
 
     pil = int(sys.argv[2])
+    r = int(sys.argv[3])
 
     if (pil == 1):
         id = Boyer_Moore(Q,word)
@@ -81,7 +82,7 @@ if __name__ == "__main__":
                 ids.insert(0, idr[m])
         
         if (len(ids) >= 1):
-            if (percent[ids[0]] >= 0.9):
+            if (percent[ids[0]] >= r*0.01):
                 print(Z3[ids[0]][1])
             else:
                 ok = False
