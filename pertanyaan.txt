@@ -1,4 +1,4 @@
-1. Halo? Halo
+﻿1. Halo? Halo
 2. Selamat pagi? Selamat pagi, ada yang bisa saya bantu?
 3. Selamat siang? Selamat siang, ada yang bisa saya bantu?
 4. Selamat malam? Selamat malam, ada yang bisa saya bantu?
