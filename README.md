@@ -1,7 +1,6 @@
 # ChatBot
 
 - Folder BE untuk back-end
-- Belum bisa Regex
 
 ## HOW TO USE
 ### Windows
