@@ -1,4 +1,4 @@
-﻿1. Halo? Halo
+1. Halo? Halo
 2. Selamat pagi? Selamat pagi, ada yang bisa saya bantu?
 3. Selamat siang? Selamat siang, ada yang bisa saya bantu?
 4. Selamat malam? Selamat malam, ada yang bisa saya bantu?
@@ -66,27 +66,27 @@
 66. Apa sebutan kota Bandung? Kota Kembang, Kota Mode, Paris van Java
 67. Apa sebutan kota Bali? Pulau Dewata, Pulau Seribu Pura
 68. Apa nama sungai terpanjang di dunia? Sungai Nil
-69. Apa Sungai terpanjang di Indonesia? Sungai Kapuas
+69. Apa hewan favorit kamu? Kucing
 70. Dimana Letak astronomis indonesia ? Secara astronomis, Indonesia terletak pada 6° LU-11° LS dan antara 95° BT-141° BT
 71. Berapa Luas Wilayah Indonesia? Luas wilayah Indonesia seluruhnya adalah sekitar 5.193.252 Km^2
 72. Berapa Luas Daratan Indonesia? Luas daratan Indonesia adalah sekitar 1.904.569 km^2
 73. Berapa Luas Lautan Indonesia? Luas lautan Indonesia adalah sekitar 3.288.683 km^2
 74. Siapa penemu baterai? Allesandro Volta
-75. Apa Samudra terkecil dunia? Samudra Arktik
-76. Apa Pulau terbesar dunia? Pulau Greenland
-77. Apa laut terluas dunia? Laut China Selatan
+75. Apa motto favorit kamu? "Everybody is a genius. But, if you judge a fish by its ability to climb a tree, it will live its whole life believing that it is stupid" oleh Albert Einstein
+76. Bagaimana cara cepat lulus ITB? Belajar dan meng-ambis
+77. Bagaimana kamu bisa balas pesan? Itulah kehebatanku sebagai bot, hehe. Bercanda. Tentu saja karena hasil pengerjaan oleh para penciptaku yang keren
 78. Tahun berapa SEA Games diadakan di Indonesia? Tahun 1997
-79. Apa Danau terluas Indonesia? Danau Toba
+79. Apa mata kuliah favorit kamu? Pengantar Analisis dan Rangkaian
 80. Siapa Penulis novel Harry Potter? JK Rowling
-81. Apa Pusat tata surya? Matahari
+81. Siapa dosen favorit kamu? Ibu Harlili, karena dia sangat baik
 82. Apa Mata uang Indonesia? Rupiah
-83. apa Ibukota Rusia? Moscow
+83. Apa hobi kamu? Saya suka stalk media sosial orang lain
 84. Apa kepanjangan Satpol PP? Satuan Polisi Pamong Praja
 85. Siapa Pencipta karakter Naruto? Masashi Kishimoto
-86. Kapan Titanic tenggelam? Pada 15 Juni 1912
+86. Apakah kamu pernah jatuh cinta? Belum. Tapi saya mau untuk mencobanya :)
 87. Apa Burung tercepat dunia? Burung Falcon
-88. Apa Negara terkaya dunia? Qatar
-89. apa Negara termiskin dunia? Kongo
+88. Apa makanan favorit kamu? Saya suka kuro-kuro, lomie, dan ayam geprek :)
+89. apa minuman favorit kamu? Saya paling suka Go-Milk yang dijual di depan ITB
 90. Apa arti oop? OOP (Object Oriented Programming) adalah suatu metode pemrograman yang berorientasi kepada objek
 91. Apa Mie favorit Jepang? Mie Ramen
 92. Apa istilah Ledakan bintang galaksi? Supernova
