@@ -238,5 +238,55 @@
         "sinonim": [
             "panggilan"
         ]
+    },
+    "makanan": { 
+        "sinonim": [
+            "konsumsi", "cemilan", "santapan"
+        ]
+    },
+    "hobi": { 
+        "sinonim": [
+            "kegemaran", "kesukaan", "minat", "kesenangan"
+        ]
+    },
+    "favorit": { 
+        "sinonim": [
+            "idola", "kesukaan"
+        ]
+    },
+    "dosen": { 
+        "sinonim": [
+            "guru", "pembimbing", "pengajar"
+        ]
+    },
+    "bisa": { 
+        "sinonim": [
+            "dapat", "mampu", "sanggup"
+        ]
+    },
+    "balas": { 
+        "sinonim": [
+            "membalas", "menjawab", "jawab", "respons", "merespons"
+        ]
+    },
+    "pesan": { 
+        "sinonim": [
+            "perintah", "masukan"
+        ]
+    },
+    "motto": { 
+        "sinonim": [
+            "kutipan", "quote"
+        ]
+    },
+    "cara": { 
+        "sinonim": [
+            "kiat", "tips", "taktik"
+        ]
+    },
+    "hewan": { 
+        "sinonim": [
+            "binatang", "fauna", "satwa", "piaraan", "peliharaan"
+        ]
     }
 }
