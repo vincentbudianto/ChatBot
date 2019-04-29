@@ -5,7 +5,8 @@
 ## HOW TO USE
 ### Windows
 - Bikin Folder baru di xampp/htdocs
-- Copy semua File ke Folder tadi
-- Jalankan localhost http://localhost:8080/<namafolder>
+- Beri nama Folder 'ChatBot'
+- Copy semua File dan Folder ke Folder ChatBot
+- Jalankan localhost http://localhost/ChatBot
   
   
